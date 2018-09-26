@@ -42,6 +42,13 @@ You can use one of many programs to flash the ISO onto a USB drive.
 | [Etcher](https://etcher.io/)    | Easy to use, no persistence options  |
 | [Unetbootin](http://unetbootin.github.io/)   | Persistence up to 4GB on FAT32 file systems |
 
+## Default Credentials
+
+Username: `odm`
+Password: `odm`
+
+The root password is `opendronemap`. We recommend you change both passwords if you install LiveODM on a machine.
+
 ## Support the Project
 
 There are many ways to contribute back to the project:
