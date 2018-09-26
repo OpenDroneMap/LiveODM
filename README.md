@@ -22,7 +22,7 @@ To build the ISO you will need an Ubuntu machine (16.04 or higher).
 1. Clone this repository
 2. Run `./envsetup.sh`
 
-If you just want to use the stock LiveODM ISO without making changes, simply flash `opendronemap.iso` with your favorite program (see [Flashing the ISO](#flashing-the-iso)) and you're done! If you want to customize the ISO, instead follow these additional steps:
+If you just want to use the stock LiveODM ISO without making changes, simply flash `opendronemap.iso` with your favorite program (see [Flashing the ISO](#flashing-the-iso)), plug the USB onto your computer, reboot and you're done! If you want to customize the ISO, instead follow these additional steps:
 
 3. Run `./enter-chroot.sh`
 
