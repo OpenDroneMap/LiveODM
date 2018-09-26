@@ -5,7 +5,7 @@ set -eo pipefail
 GOOGLE_DRIVE_FILE_ID=1ZSQRfhHmiEWnazlJRy6UEzKaYElDFv4l
 
 sudo apt update
-sudo apt install -y squashfs-tools genisoimage xorriso isolinux wget
+sudo apt install -y squashfs-tools genisoimage xorriso isolinux wget perl
 
 if [ ! -e ./opendronemap.iso ]; then
 	echo "Downloading opendronemap.iso..."
