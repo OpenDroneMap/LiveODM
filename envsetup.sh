@@ -9,7 +9,7 @@ sudo apt install -y squashfs-tools genisoimage xorriso isolinux wget perl
 
 if [ ! -e ./opendronemap.iso ]; then
 	echo "Downloading opendronemap.iso..."
-	./gdown.pl "'https://drive.google.com/file/d/$GOOGLE_DRIVE_FILE_ID/edit'" opendronemap.iso
+	./gdown.pl "https://drive.google.com/file/d/$GOOGLE_DRIVE_FILE_ID/edit" opendronemap.iso
 fi
 
 if [ ! -e ./chroot ]; then
