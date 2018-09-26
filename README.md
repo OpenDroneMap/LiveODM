@@ -40,7 +40,7 @@ You can use one of many programs to flash the ISO onto a USB drive.
 | Program  | Description |
 | ------------- | ------------- |
 | [Etcher](https://etcher.io/)    | Easy to use, no persistence options  |
-| [Unetbootbin](http://unetbootin.github.io/)   | Persistence up to 4GB on FAT32 file systems |
+| [Unetbootin](http://unetbootin.github.io/)   | Persistence up to 4GB on FAT32 file systems |
 
 ## Support the Project
 
