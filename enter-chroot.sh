@@ -22,7 +22,7 @@ sudo umount chroot/dev
 
 #sudo rm chroot/etc/resolv.conf
 sudo rm chroot/etc/hosts
-sudo rm chroot/home/odm/.bash_history
-sudo rm chroot/root/.bash_history
+sudo rm chroot/home/odm/.bash_history 2>/dev/null
+sudo rm chroot/root/.bash_history 2>/dev/null
 sudo rm -fr chroot/tmp/*
 
