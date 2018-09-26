@@ -28,7 +28,7 @@ If you just want to use the stock LiveODM ISO without making changes, simply fla
 
 You are in the chroot environment now. Make your modifications (add programs, update ODM software, change settings, etc.). When you are done:
 
-4. Type `exit`. This will bring you back to your parent environment.
+4. Type `exit`. This will leave the chroot environment.
 5. `./build.sh`
 
 Then wait. When it's done, the `opendronemap.iso` file will be ready to be flashed.
