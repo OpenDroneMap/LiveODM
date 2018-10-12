@@ -1,5 +1,7 @@
 # LiveODM
 
+![liveodm-64x64](https://user-images.githubusercontent.com/1951843/46868125-50bc4f00-cdf5-11e8-96b8-47bc7c71eb21.png)
+
 Live DVD/USB ISO with [ODM](https://github.com/OpenDroneMap/OpenDroneMap), [node-ODM](https://github.com/OpenDroneMap/node-OpenDroneMap) and [WebODM](https://github.com/OpenDroneMap/WebODM) pre-installed. No installation required, just plug and play. Works on most 64bit computers.
 
 ![image](https://user-images.githubusercontent.com/1951843/46053851-76b5d400-c112-11e8-80ff-16d20a574cd7.png)
