@@ -27,7 +27,6 @@ LiveODM is great for:
 ```
 git clone https://github.com/manand881/LiveODM.git
 cd LiveODM/
-
 ```
 2. Build the ISO.
 
