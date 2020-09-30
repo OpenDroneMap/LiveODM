@@ -23,12 +23,13 @@ LiveODM is great for:
 
 ## Getting Started
 
-1. Clone this repository. you can follow the steps given below to do the same
+1. Clone this repository. you can follow the steps given below to do the same.
 ```
 git clone https://github.com/manand881/LiveODM.git
 cd LiveODM/
+
 ```
-2. Build the ISO.
+2. Build the ISO. Run the command mentioned below
 
 ```
 ./envsetup.sh
@@ -74,3 +75,4 @@ There are many ways to contribute back to the project:
  - Help answer questions on the community [forum](http://community.opendronemap.org)
  - While we don't accept donations, you can [purchase an ISO](https://opendronemap.org/liveodm).
  - Become a contributor.
+
