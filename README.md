@@ -25,7 +25,7 @@ LiveODM is great for:
 
 1. Clone this repository. you can follow the steps given below to do the same.
 ```
-git clone https://github.com/manand881/LiveODM.git
+git clone https://github.com/OpenDroneMap/LiveODM.git
 cd LiveODM/
 ```
 2. Build the ISO. Run the command mentioned below
