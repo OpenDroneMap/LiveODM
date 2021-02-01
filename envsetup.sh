@@ -14,9 +14,9 @@ fi
 
 # Clean any previous failed execution.
 set +e
-mountpoint /home/andres/LiveODM/opendronemap.iso > /dev/null
+mountpoint ./opendronemap.iso > /dev/null
 if [ ${?} -eq 0 ] ; then
-	sudo umount /home/andres/LiveODM/opendronemap.iso 2> /dev/null
+	sudo umount ./opendronemap.iso 2> /dev/null
 fi
 set -e
 sudo rm -Rf mnt/ image/ squashfs-root/ 
