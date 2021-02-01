@@ -16,7 +16,7 @@ LiveODM is great for:
  
 ## Requirements
  * A 64-bit Computer with Ubuntu 16.04 or higher.
- * 10 GB free disk space.
+ * 15 GB free disk space.
  * 4GB USB Drive (USB 2.0 is fine. USB 3.0 is highly recommended. More storage space is recommended/required when using persistent mode) or an empty DVD.
  * [Git](https://git-scm.com/downloads) if you plan on cloning this repository.
 
