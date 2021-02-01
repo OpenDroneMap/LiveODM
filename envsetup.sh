@@ -12,6 +12,10 @@ if [ ! -e ./opendronemap.iso ]; then
 	./gdown.pl "https://drive.google.com/file/d/$GOOGLE_DRIVE_FILE_ID/edit" opendronemap.iso
 fi
 
+# Clean any previous failed execution.
+sudo umount /home/andres/LiveODM/opendronemap.iso 2> /dev/null
+sudo rm -Rf mnt/ image/ squashfs-root/
+
 if [ ! -e ./chroot ]; then
 	mkdir mnt
 	sudo mount -o loop *.iso mnt
