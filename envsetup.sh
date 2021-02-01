@@ -13,8 +13,13 @@ if [ ! -e ./opendronemap.iso ]; then
 fi
 
 # Clean any previous failed execution.
-sudo umount /home/andres/LiveODM/opendronemap.iso 2> /dev/null
-sudo rm -Rf mnt/ image/ squashfs-root/
+set +e
+mountpoint /home/andres/LiveODM/opendronemap.iso > /dev/null
+if [ ${?} -eq 0 ] ; then
+	sudo umount /home/andres/LiveODM/opendronemap.iso 2> /dev/null
+fi
+set -e
+sudo rm -Rf mnt/ image/ squashfs-root/ 
 
 if [ ! -e ./chroot ]; then
 	mkdir mnt
