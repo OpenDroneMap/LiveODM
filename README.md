@@ -73,6 +73,5 @@ There are many ways to contribute back to the project:
  - Help us test the ISO on different hardware and report issues.
  - Spread the word about OpenDroneMap on social media.
  - Help answer questions on the community [forum](http://community.opendronemap.org)
- - While we don't accept donations, you can [purchase an ISO](https://opendronemap.org/liveodm).
  - Become a contributor.
 
